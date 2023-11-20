@@ -18,7 +18,6 @@ void swap(int *a, int *b)
  * @low: Starting index of the partition
  * @high: Ending index of the partition
  * @size: Size of the array
- * 
  * Return: Index of the pivot element after partitioning
  */
 size_t lomuto_partition(int *array, ssize_t low, ssize_t high, size_t size)

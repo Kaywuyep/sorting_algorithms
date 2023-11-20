@@ -44,7 +44,6 @@ void merge(int *array, int *temp, size_t left, size_t mid, size_t right)
 		j++;
 		k++;
 	}
-
 	for (i = 0, k = left; k < right; i++, k++)
 		array[k] = temp[i];
 
