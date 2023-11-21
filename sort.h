@@ -34,6 +34,7 @@ typedef struct listint_s
 	struct listint_s *next;
 } listint_t;
 
+void swap_quick(int *array, ssize_t idx1, ssize_t idx2);
 void swap(int *a, int *b);
 void swap_shell_sort(int *array, size_t a, size_t b);
 void swap_nodes(listint_t **list, listint_t *node);
