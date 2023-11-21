@@ -41,6 +41,7 @@ void swap_nodes(listint_t **list, listint_t *node);
 void print_array(const int *array, size_t size);
 void print_list(const listint_t *list);
 size_t lomuto_partition(int *array, ssize_t low, ssize_t high, size_t size);
+void quicksort(int *array, ssize_t low, ssize_t high, int size);
 void quick_sort_recursive(int *array, ssize_t low, ssize_t high, size_t size);
 int find_max(int *array, int size);
 void merge_sort_recursive(int *array, int *temp, size_t left, size_t right);
