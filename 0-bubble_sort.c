@@ -24,13 +24,13 @@ void swap(int *a, int *b)
  */
 void bubble_sort(int *array, size_t size)
 {
-	size_t i, j = size;
+	ssize_t i, j = size;
 	bool bubble = false;
 
 	if (array == NULL || size < 2)
 		return;
 
-	while (bubble == false)
+	while (!bubble)
 	{
 		bubble = true;
 		for (i = 0; i < j - 1; i++)
